@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="fft_module_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="fft_module_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="616621933334fs"></ZoomStartTime>
+      <ZoomEndTime time="616640333335fs"></ZoomEndTime>
+      <Cursor1Time time="616625000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="225"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="30" />
+   <wvobject fp_name="/fft_module_tb/m_axis_data_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_data_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/m_axis_data_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_data_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/m_axis_phase_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_phase_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_phase_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/m_axis_phase_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_phase_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_phase_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/m_axis_data_tdata_sine" type="array">
+      <obj_property name="ElementShortName">m_axis_data_tdata_sine[7:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tdata_sine[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/m_axis_phase_tdata_phase" type="array">
+      <obj_property name="ElementShortName">m_axis_phase_tdata_phase[27:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_phase_tdata_phase[27:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/i_data" type="array">
+      <obj_property name="ElementShortName">i_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/o_data" type="array">
+      <obj_property name="ElementShortName">o_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_data[7:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/o_valid" type="logic">
+      <obj_property name="ElementShortName">o_valid</obj_property>
+      <obj_property name="ObjectShortName">o_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/o_index" type="array">
+      <obj_property name="ElementShortName">o_index[12:0]</obj_property>
+      <obj_property name="ObjectShortName">o_index[12:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/stop_the_clock" type="other">
+      <obj_property name="ElementShortName">stop_the_clock</obj_property>
+      <obj_property name="ObjectShortName">stop_the_clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/Data_Length" type="other">
+      <obj_property name="ElementShortName">Data_Length</obj_property>
+      <obj_property name="ObjectShortName">Data_Length</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/Index_Length" type="other">
+      <obj_property name="ElementShortName">Index_Length</obj_property>
+      <obj_property name="ObjectShortName">Index_Length</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/clock_period" type="other">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/uut/s_axis_config_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_config_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_config_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/uut/s_axis_config_tready" type="logic">
+      <obj_property name="ElementShortName">s_axis_config_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_config_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/uut/s_axis_config_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_config_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_config_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/uut/s_axis_data_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_data_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_data_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/uut/s_axis_data_tready" type="logic">
+      <obj_property name="ElementShortName">s_axis_data_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_data_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/uut/s_axis_data_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_data_tdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_data_tdata[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/uut/s_axis_data_tlast" type="logic">
+      <obj_property name="ElementShortName">s_axis_data_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_data_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/uut/m_axis_data_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_data_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/uut/m_axis_data_tready" type="logic">
+      <obj_property name="ElementShortName">m_axis_data_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/uut/m_axis_data_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_data_tdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tdata[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/uut/m_axis_data_tuser" type="array">
+      <obj_property name="ElementShortName">m_axis_data_tuser[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tuser[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/uut/m_axis_data_tlast" type="logic">
+      <obj_property name="ElementShortName">m_axis_data_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/uut/event_frame_started" type="logic">
+      <obj_property name="ElementShortName">event_frame_started</obj_property>
+      <obj_property name="ObjectShortName">event_frame_started</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/uut/event_tlast_unexpected" type="logic">
+      <obj_property name="ElementShortName">event_tlast_unexpected</obj_property>
+      <obj_property name="ObjectShortName">event_tlast_unexpected</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fft_module_tb/uut/event_tlast_missing" type="logic">
+      <obj_property name="ElementShortName">event_tlast_missing</obj_property>
+      <obj_property name="ObjectShortName">event_tlast_missing</obj_property>
+   </wvobject>
+</wave_config>
